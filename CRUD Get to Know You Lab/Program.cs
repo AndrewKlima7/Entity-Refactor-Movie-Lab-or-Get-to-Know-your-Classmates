@@ -55,7 +55,7 @@ namespace CRUD_Get_to_Know_You_Lab
                                 Console.WriteLine("That is not a current student (PRESS ENTER)");
                                 Console.ReadKey();
                                 Console.Clear();
-                                update = true;
+                                another2 = true;
                             }
                             else
                             {
@@ -392,7 +392,6 @@ namespace CRUD_Get_to_Know_You_Lab
                     repeat = true;
                 }
             }
-
             return false;
         }
 
@@ -439,3 +438,8 @@ namespace CRUD_Get_to_Know_You_Lab
         }
     }
 }
+
+
+
+
+
