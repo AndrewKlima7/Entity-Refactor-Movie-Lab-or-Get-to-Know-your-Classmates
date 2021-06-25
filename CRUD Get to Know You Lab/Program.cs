@@ -61,7 +61,6 @@ namespace CRUD_Get_to_Know_You_Lab
                             {
                                 UpdateWhat(s, gc);
                                 another2 = GoAgain();
-                                update = false;
                             }
                         }
                         update = false;
@@ -100,7 +99,6 @@ namespace CRUD_Get_to_Know_You_Lab
                             Student s = new Student() { Name = name, Location = hometown, FavoriteFood = favoriteFood };
                             AddStudent(s, gc);
                             add = GoAgain();
-                            another = false;
                         }
                         another = false;
                     }
@@ -142,7 +140,6 @@ namespace CRUD_Get_to_Know_You_Lab
                             {
                                 DeleteStudent(s, gc);
                                 delete = GoAgain();
-                                onceAgain = false;
                             }
                         }
                         onceAgain = false;
@@ -438,8 +435,3 @@ namespace CRUD_Get_to_Know_You_Lab
         }
     }
 }
-
-
-
-
-
